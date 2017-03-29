@@ -8,8 +8,8 @@ class BookController extends Controller
 {
     // GET /books
     public function index(){
-        return App::environment();
-        //return 'View all the books...';
+    
+        return 'View all the books...';
     }
 
     //GET /books/{$title?}
